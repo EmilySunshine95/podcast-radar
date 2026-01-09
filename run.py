@@ -4,6 +4,7 @@ from datetime import datetime
 
 RSS_URL = "https://www.lennyspodcast.com/feed"
 
+
 print("Fetching RSS...")
 res = requests.get(RSS_URL)
 res.raise_for_status()
